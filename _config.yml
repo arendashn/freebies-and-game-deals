@@ -1,3 +1,8 @@
 title: Daily Deals Digest
 description: Automated daily freebies & deals
 theme: minima
+
+plugins:
+  - jekyll-paginate
+paginate: 10
+paginate_path: "/page:num/"
