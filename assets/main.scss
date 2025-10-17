@@ -1,6 +1,13 @@
 ---
 ---
 
-/* Force the dark skin from Minima */
-$minima-skin: dark;
-@import "minima";
+@import "minima";  /* compile the theme first */
+
+/* Force dark overrides */
+body{background:#0b0f14 !important;color:#e6e6e6 !important;}
+.site-header,.site-footer,.site-nav{background:#0b0f14 !important;border-color:#1f2937 !important;color:#9aa3ad !important;}
+a,.site-title,.post-link{color:#8ab4f8 !important;}
+a:visited{color:#b39df3 !important;}
+.post-list>li{background:#0f1520 !important;border:1px solid #1f2937 !important;border-radius:12px;padding:12px;}
+.post-meta{color:#9aa3ad !important;}
+code,pre,pre>code{background:#111827 !important;color:#e6e6e6 !important;}
