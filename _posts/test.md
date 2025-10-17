@@ -1,0 +1,6 @@
+---
+layout: post
+title: "Hello World"
+date: 2025-10-17
+---
+First post to test the blog system.
